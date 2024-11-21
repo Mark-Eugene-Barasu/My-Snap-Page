@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    font-family: poppins;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.logoNav {
+    display: flex;
+    margin-left: 80px
+}
+
+.logo {
+    margin-right: 100px
+}
+
+.navigation {
+    a {
+        margin:
+            0px 15px
+    }
+}
+
+.btnLogin {
+    margin-right: 80px;
+
+    button {
+        margin-left: 30px
+    }
+}
+
+.navbar {
+    display: none;
+    margin-right: 80px;
+
+    img {
+        width: 30px
+    }
+}
+
+.heroImageText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imageBox {
+    img {
+        width: 400px
+    }
+}
+
+.textBox {
+    width: 450px;
+
+    h1 {
+        font-size: 60px;
+        margin: 0px
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        display: block
+    }
+
+    .navigation {
+        display: none
+    }
+
+    .btnLogin {
+        display: none
+    }
+
+    .heroImageText {
+        flex-direction: column-reverse
+    }
+
+    .textBox {
+        text-align: center;
+
+        h1 {
+            font-size: 40px
+        }
+    }
+}
+
+/* has context menu */
+
+
+img[alt="logo"] {
+    width: 50px;
+}
