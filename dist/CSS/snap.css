@@ -10,6 +10,15 @@ header {
   align-items: center;
 }
 
+a[class=githubLink] {
+  display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .logoNav {
   display: flex;
   margin-left: 80px;
